@@ -39,11 +39,7 @@ body {
     background-color: var(--amarelo);
     padding: 0;
 }
-#nav_box{
-  background-color: #7AB5CB;
-  width: 100px;
-  height: 100px;
-}
+
 #nav_container {
     background-color: var(--amarelo);
 }
@@ -61,7 +57,7 @@ li {
 
 button.botao_deslogar {
     background-color: var(--laranja-claro);
-    color: var(--laranja-escuro);
+    color: var(--amarelo);
     width: 54px;
     height: 54px;
     border-radius: 50px;
@@ -76,9 +72,9 @@ button.botao_deslogar {
 
 
 button.botao_deslogar:hover {
-    background-color: var(--laranja-escuro);
+    background-color: var(--amarelo);
     color: var(--cinza);
-    box-shadow: 2px 2px 2px var(--laranja-escuro);
+    box-shadow: 2px 2px 2px var(--amarelo);
 }
 
 button {
